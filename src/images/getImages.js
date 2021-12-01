@@ -16,11 +16,11 @@ function getImgaes() {
     imgArr.push(_imgItem(img2, 'paramecia', 'doru doru'));
     imgArr.push(_imgItem(img3, 'paramecia', 'gomu gomu'));
     imgArr.push(_imgItem(img4, 'paramecia', 'hana hana'));
-    imgArr.push(_imgItem(img5, 'Zoan', 'hito hito'));
+    imgArr.push(_imgItem(img5, 'zoan', 'hito hito'));
     imgArr.push(_imgItem(img6, 'logia', 'mera mera'));
     imgArr.push(_imgItem(img7, 'logia', 'moku moku'));
     imgArr.push(_imgItem(img8, 'paramecia', 'ope ope'));
-    imgArr.push(_imgItem(img9, 'Zoan', 'ushi ushi(giraffe)'));
+    imgArr.push(_imgItem(img9, 'zoan', 'ushi ushi(giraffe)'));
     imgArr.push(_imgItem(img10, 'logia', 'yami yami'));
 
     return imgArr;

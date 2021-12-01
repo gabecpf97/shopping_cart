@@ -36,6 +36,9 @@ a {
     color: rgb(209, 209, 207);
     text-decoration: none;
 }
+li {
+    list-style: none;
+}
 
 .home {
     background-image: url("./images/Devil_Fruit_Infobox.png");
@@ -48,15 +51,49 @@ h1 {
     text-align: center;
 }
 
+.store_content {
+    display: flex;
+    justify-content: center;
+}
+
+.type_div {
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.type_div label {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.types {
+    margin: 0px;
+    padding: 5px;
+    border: blueviolet solid;
+    display: grid;
+    cursor: pointer;
+}
+
+.type:hover {
+    background-color: cornflowerblue;
+}
+
+.type {
+    padding: 10px;
+    text-align: center;
+}
+
 .items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0px;
 }
 
 .item {
-    list-style: none;
     margin: 10px;
     padding: 5px;
     display: flex;
