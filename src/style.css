@@ -1,9 +1,20 @@
+html,
+#root,
+.container,
+.home {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
 .navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgb(82, 88, 86);
-    margin: -8px;
+    margin: 0px;
     padding: 10px;
     color: beige;
 }
@@ -24,4 +35,15 @@
 a {
     color: rgb(209, 209, 207);
     text-decoration: none;
+}
+
+.home {
+    background-image: url("./images/Devil_Fruit_Infobox.png");
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
 }
