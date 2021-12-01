@@ -5,6 +5,7 @@ import getImgaes from "../images/getImages";
 const Store = () => {
     const [items, setItems] = useState([]);
     const [types, setTypes] = useState([]);
+    const [shoppingCart, setShoppingCart] = useState(setShoppingCart());
 
     useEffect(() => {
         const imgArr = getImgaes();
