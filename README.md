@@ -1,3 +1,18 @@
+# This is a shopping website that useses route in react
+
+## pages' images source
+https://onepiece.fandom.com/wiki/Devil_Fruit
+https://static.wikia.nocookie.net/onepiece/images/1/12/Gomu_Gomu_no_Mi_Infobox.png/revision/latest?cb=20190419140206
+https://static.wikia.nocookie.net/onepiece/images/5/51/Awa_Awa_no_Mi_Infobox.png/revision/latest?cb=20131206044150
+https://static.wikia.nocookie.net/onepiece/images/0/0e/Ope_Ope_no_Mi_Infobox.png/revision/latest?cb=20210409181034
+https://static.wikia.nocookie.net/onepiece/images/2/21/Hana_Hana_no_Mi_Infobox.png/revision/latest?cb=20191228120242
+https://static.wikia.nocookie.net/onepiece/images/5/5f/Doru_Doru_no_Mi_Infobox.png/revision/latest?cb=20200507205151
+https://static.wikia.nocookie.net/onepiece/images/8/8d/Moku_Moku_no_Mi_Infobox.png/revision/latest?cb=20200912191830
+https://static.wikia.nocookie.net/onepiece/images/8/8c/Mera_Mera_no_Mi_Infobox.png/revision/latest?cb=20151123200729
+https://static.wikia.nocookie.net/onepiece/images/f/f5/Yami_Yami_no_Mi_Infobox.png/revision/latest?cb=20160123174331
+https://static.wikia.nocookie.net/onepiece/images/3/38/Hito_Hito_no_Mi_Infobox.png/revision/latest?cb=20191228120250
+https://static.wikia.nocookie.net/onepiece/images/8/8c/Ushi_Ushi_no_Mi%2C_Model_Giraffe_Infobox.png/revision/latest?cb=20141206185849
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(82, 88, 86);
+    margin: -8px;
+    padding: 10px;
+    color: beige;
+}
+
+.navBar h2 {
+    width: 100px;
+    text-align: center;
+}
+
+.nav_tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 700px;
+}
+
+a {
+    color: rgb(209, 209, 207);
+    text-decoration: none;
+}
