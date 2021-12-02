@@ -6,7 +6,7 @@ import getImgaes from "../images/getImages";
 
 const Store = () => {
     const [items, setItems] = useState([]);
-    const [types, setTypes] = useState([]);
+    // const [types, setTypes] = useState([]);
     // const [myCart, setMyCart] = useState(shoppingCart());
 
     useEffect(() => {
@@ -21,14 +21,15 @@ const Store = () => {
             })
         }
         setItems(itemArr);
-        setTypes(['paramecia', 'zoan', 'logia']);
+        // setTypes(['paramecia', 'zoan', 'logia']);
     }, []);
 
     return (
         <div className="store">
             <h1>store</h1>
             <div className="store_content">
-                <div className="type_div">
+                {/* for type filter implement later */}
+                {/* <div className="type_div">
                     <label>Types</label>
                     <ul className="types">
                         {types.map((type, i) => {
@@ -39,7 +40,7 @@ const Store = () => {
                             )
                         })}
                     </ul>
-                </div>
+                </div> */}
                 <ul className="items">
                     {items.map(item => {
                         return (

@@ -15,8 +15,10 @@ const StoreItem = ({onAddToCart}) => {
             <h1>{info.name}</h1>
             <div className="info">
                 <img src={info.img} alt={info.name}/>
-                <label className="price">$19.99</label>
-                <button onClick={() => onClickAdd()}>buy</button>
+                <div className="option">
+                    <label className="price">$19.99</label>
+                    <button onClick={() => onClickAdd()}>buy</button>
+                </div>
             </div>
         </div>
     );

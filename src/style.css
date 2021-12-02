@@ -20,6 +20,10 @@ body {
     color: beige;
 }
 
+.navBar a {
+    color: beige;
+}
+
 .navBar h2 {
     width: 100px;
     text-align: center;
@@ -33,17 +37,48 @@ body {
     width: 700px;
 }
 
-a {
+.nav_tabs a {
     color: rgb(209, 209, 207);
+}
+
+a {
     text-decoration: none;
 }
+
 li {
     list-style: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 .home {
     background-image: url("./images/Devil_Fruit_Infobox.png");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.home h1 {
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+
+.home p {
+    text-align: center;
+    font-size: larger;
+    /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+}
+
+.shop {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background: rgb(82, 88, 86);
+    color: beige;
 }
 
 h1 {
@@ -103,6 +138,11 @@ h1 {
     align-items: center;
     cursor: pointer;
     border: paleturquoise solid;
+    text-align: center;
+}
+
+.item label {
+    color: rgb(62, 77, 77);
 }
 
 img {
@@ -154,4 +194,19 @@ img {
     padding-top: 20px;
     margin-top: 10px;
     width: 600px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }

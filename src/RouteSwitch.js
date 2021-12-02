@@ -17,12 +17,17 @@ const RouteSwitch = () => {
             return myCart;
         });
     }
-
+    
     const onRemoveItem = (targetItem) => {
         setMyCart(myCart => {
             myCart.removeItem(targetItem);
-            return myCart;
+            const s_copy = shoppingCart();
+            myCart.getCart().forEach(item => {
+                s_copy.addItem(item);
+            });
+            return s_copy;
         });
+        return myCart;
     }
 
     return (
@@ -36,7 +41,7 @@ const RouteSwitch = () => {
                                             onAddToCart={onAddToCart}/>} />
                     <Route path="/cart" element={<Cart 
                                                 myCart = {myCart}
-                                                onRemoveItem = {onRemoveItem} />} />
+                                                onRemoveItem = {onRemoveItem}/>} />
                 </Routes>
             </BrowserRouter>
         </div>
