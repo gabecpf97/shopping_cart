@@ -1,8 +1,9 @@
-const cartItem = (name, price, quant) => {
+const cartItem = (name, price, quant, img) => {
     return {
         myName: name,
         myPrice: price,
-        myQuant: quant
+        myQuant: quant,
+        myImg: img
     }
 }
 

@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 import uniqid from "uniqid";
 import getImgaes from "../images/getImages";
+// import shoppingCart from "./shoppingCart";
 
 const Store = () => {
     const [items, setItems] = useState([]);
     const [types, setTypes] = useState([]);
-    const [shoppingCart, setShoppingCart] = useState(setShoppingCart());
+    // const [myCart, setMyCart] = useState(shoppingCart());
 
     useEffect(() => {
         const imgArr = getImgaes();
@@ -42,8 +44,11 @@ const Store = () => {
                     {items.map(item => {
                         return (
                             <li className="item" key={item.id}>
-                                <img src={item.img} alt={item.name}/>
-                                <label>{item.name}</label>
+                                <Link to={`/store/${item.id}`}
+                                        state={{info: item}}>
+                                        <img src={item.img} alt={item.name}/>
+                                        <label>{item.name}</label>
+                                </Link>
                             </li>
                         )
                     })}

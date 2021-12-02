@@ -11,7 +11,6 @@ const shoppingCart = () => {
         });
         if (!hasIt)
             cart.push(newItem);
-        return cart;
     }
 
     function removeItem(targetItem) {
@@ -19,12 +18,11 @@ const shoppingCart = () => {
             const item = cart[i];
             if (item.myName === targetItem.myName) {
                     if (item.myQuant < 2)
-                        cart.removeItem(i);
+                        cart.splice(i, 1);
                     else
                         item.myQuant -= 1;
             }
         }
-        return cart;
     }
 
     function getCart() {
