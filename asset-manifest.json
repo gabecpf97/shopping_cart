@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopping_cart/static/css/main.5e138bfc.chunk.css",
+    "main.js": "/shopping_cart/static/js/main.1f7a4f21.chunk.js",
+    "main.js.map": "/shopping_cart/static/js/main.1f7a4f21.chunk.js.map",
+    "runtime-main.js": "/shopping_cart/static/js/runtime-main.aa5faa48.js",
+    "runtime-main.js.map": "/shopping_cart/static/js/runtime-main.aa5faa48.js.map",
+    "static/js/2.9ef77217.chunk.js": "/shopping_cart/static/js/2.9ef77217.chunk.js",
+    "static/js/2.9ef77217.chunk.js.map": "/shopping_cart/static/js/2.9ef77217.chunk.js.map",
+    "index.html": "/shopping_cart/index.html",
+    "static/css/main.5e138bfc.chunk.css.map": "/shopping_cart/static/css/main.5e138bfc.chunk.css.map",
+    "static/js/2.9ef77217.chunk.js.LICENSE.txt": "/shopping_cart/static/js/2.9ef77217.chunk.js.LICENSE.txt",
+    "static/media/Awa_Awa_no_Mi_Infobox.7c948fd5.png": "/shopping_cart/static/media/Awa_Awa_no_Mi_Infobox.7c948fd5.png",
+    "static/media/style.css": "/shopping_cart/static/media/Devil_Fruit_Infobox.06f96412.png",
+    "static/media/Doru_Doru_no_Mi_Infobox.9877eda8.png": "/shopping_cart/static/media/Doru_Doru_no_Mi_Infobox.9877eda8.png",
+    "static/media/Gomu_Gomu_no_Mi_Infobox.cf400b67.png": "/shopping_cart/static/media/Gomu_Gomu_no_Mi_Infobox.cf400b67.png",
+    "static/media/Hana_Hana_no_Mi_Infobox.b122ad2b.png": "/shopping_cart/static/media/Hana_Hana_no_Mi_Infobox.b122ad2b.png",
+    "static/media/Hito_Hito_no_Mi_Infobox.39fe2119.png": "/shopping_cart/static/media/Hito_Hito_no_Mi_Infobox.39fe2119.png",
+    "static/media/Mera_Mera_no_Mi_Infobox.ca3074d0.png": "/shopping_cart/static/media/Mera_Mera_no_Mi_Infobox.ca3074d0.png",
+    "static/media/Moku_Moku_no_Mi_Infobox.60f30d44.png": "/shopping_cart/static/media/Moku_Moku_no_Mi_Infobox.60f30d44.png",
+    "static/media/Ope_Ope_no_Mi_Infobox.d4baee57.png": "/shopping_cart/static/media/Ope_Ope_no_Mi_Infobox.d4baee57.png",
+    "static/media/Ushi_Ushi_no_Mi,_Model_Giraffe_Infobox.558b93b6.png": "/shopping_cart/static/media/Ushi_Ushi_no_Mi,_Model_Giraffe_Infobox.558b93b6.png",
+    "static/media/Yami_Yami_no_Mi_Infobox.3a1460fa.png": "/shopping_cart/static/media/Yami_Yami_no_Mi_Infobox.3a1460fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa5faa48.js",
+    "static/js/2.9ef77217.chunk.js",
+    "static/css/main.5e138bfc.chunk.css",
+    "static/js/main.1f7a4f21.chunk.js"
+  ]
+}
